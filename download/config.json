@@ -1,0 +1,315 @@
+{
+  "channelCode": "5AFund",
+  "defaultLanguage": "en",
+  "facebookPixelId": "1129106685943002",
+  "urls": {
+    "customerService": "https://www.facebook.com"
+  },
+  "languages": {
+    "zh-CN": {
+      "languageName": "中文简体",
+      "title": "下载币安App,参与价格保护活动,最高领",
+      "titleHighlight": "200USDT",
+      "subtitle": "币安App 随时随地购买、交易、理财你的加密 货币",
+      "downloadButton": {
+        "android": "安卓下载",
+        "ios": "iOS下载"
+      },
+      "meta": {
+        "pageTitle": "下载"
+      }
+    },
+    "en": {
+      "languageName": "英语",
+      "title": "Download Binance App, Join Price Protection Campaign, Get Up to",
+      "titleHighlight": "200 USDT",
+      "subtitle": "Binance App - Buy, trade, and manage your crypto anytime, anywhere",
+      "downloadButton": {
+        "android": "Download for Android",
+        "ios": "Download for iOS"
+      },
+      "meta": {
+        "pageTitle": "Download"
+      }
+    },
+    "zh-TW": {
+      "languageName": "中文繁体",
+      "title": "下載幣安App,參與價格保護活動,最高領",
+      "titleHighlight": "200USDT",
+      "subtitle": "幣安App 隨時隨地購買、交易、理財你的加密 貨幣",
+      "downloadButton": {
+        "android": "安卓下載",
+        "ios": "iOS下載"
+      },
+      "meta": {
+        "pageTitle": "下載"
+      }
+    },
+    "ja": {
+      "languageName": "日语",
+      "title": "バイナンスアプリをダウンロード、価格保護キャンペーンに参加して、最大",
+      "titleHighlight": "200 USDT",
+      "subtitle": "バイナンスアプリ - いつでも、どこでも暗号通貨を購入、取引、管理",
+      "downloadButton": {
+        "android": "Android用をダウンロード",
+        "ios": "iOS用をダウンロード"
+      },
+      "meta": {
+        "pageTitle": "ダウンロード"
+      }
+    },
+    "ko": {
+      "languageName": "韩语",
+      "title": "바이낸스 앱 다운로드, 가격 보호 캠페인 참여 시 최대",
+      "titleHighlight": "200 USDT",
+      "subtitle": "바이낸스 앱 - 언제 어디서나 암호화폐 구매, 거래, 관리",
+      "downloadButton": {
+        "android": "Android용 다운로드",
+        "ios": "iOS용 다운로드"
+      },
+      "meta": {
+        "pageTitle": "다운로드"
+      }
+    },
+    "es": {
+      "languageName": "西班牙语",
+      "title": "Descarga la App de Binance, Únete a la Campaña de Protección de Precios, Obtén hasta",
+      "titleHighlight": "200 USDT",
+      "subtitle": "App de Binance - Compra, intercambia y gestiona tus criptomonedas en cualquier momento y lugar",
+      "downloadButton": {
+        "android": "Descargar para Android",
+        "ios": "Descargar para iOS"
+      },
+      "meta": {
+        "pageTitle": "Descargar"
+      }
+    },
+    "fr": {
+      "languageName": "法语",
+      "title": "Téléchargez l'App Binance, Rejoignez la Campagne de Protection des Prix, Gagnez jusqu'à",
+      "titleHighlight": "200 USDT",
+      "subtitle": "App Binance - Achetez, échangez et gérez vos cryptomonnaies à tout moment, n'importe où",
+      "downloadButton": {
+        "android": "Télécharger pour Android",
+        "ios": "Télécharger pour iOS"
+      },
+      "meta": {
+        "pageTitle": "Télécharger"
+      }
+    },
+    "de": {
+      "languageName": "德语",
+      "title": "Binance App herunterladen, Preisschutz-Kampagne beitreten, bis zu",
+      "titleHighlight": "200 USDT",
+      "subtitle": "Binance App - Kaufen, handeln und verwalten Sie Ihre Kryptowährungen jederzeit und überall",
+      "downloadButton": {
+        "android": "Für Android herunterladen",
+        "ios": "Für iOS herunterladen"
+      },
+      "meta": {
+        "pageTitle": "Herunterladen"
+      }
+    },
+    "pt": {
+      "languageName": "葡萄牙语",
+      "title": "Baixe o App Binance, Participe da Campanha de Proteção de Preços, Ganhe até",
+      "titleHighlight": "200 USDT",
+      "subtitle": "App Binance - Compre, negocie e gerencie suas criptomoedas a qualquer momento, em qualquer lugar",
+      "downloadButton": {
+        "android": "Baixar para Android",
+        "ios": "Baixar para iOS"
+      },
+      "meta": {
+        "pageTitle": "Baixar"
+      }
+    },
+    "ru": {
+      "languageName": "俄语",
+      "title": "Скачайте приложение Binance, Примите участие в кампании защиты цен, Получите до",
+      "titleHighlight": "200 USDT",
+      "subtitle": "Приложение Binance - Покупайте, торгуйте и управляйте своими криптовалютами в любое время, в любом месте",
+      "downloadButton": {
+        "android": "Скачать для Android",
+        "ios": "Скачать для iOS"
+      },
+      "meta": {
+        "pageTitle": "Скачать"
+      }
+    },
+    "vi": {
+      "languageName": "越南语",
+      "title": "Tải ứng dụng Binance, Tham gia chiến dịch bảo vệ giá, Nhận tối đa",
+      "titleHighlight": "200 USDT",
+      "subtitle": "Ứng dụng Binance - Mua, giao dịch và quản lý tiền điện tử của bạn mọi lúc, mọi nơi",
+      "downloadButton": {
+        "android": "Tải xuống cho Android",
+        "ios": "Tải xuống cho iOS"
+      },
+      "meta": {
+        "pageTitle": "Tải xuống"
+      }
+    },
+    "th": {
+      "languageName": "泰语",
+      "title": "ดาวน์โหลดแอป Binance, เข้าร่วมแคมเปญคุ้มครองราคา, รับสูงสุด",
+      "titleHighlight": "200 USDT",
+      "subtitle": "แอป Binance - ซื้อ แลกเปลี่ยน และจัดการคริปโตของคุณได้ทุกที่ทุกเวลา",
+      "downloadButton": {
+        "android": "ดาวน์โหลดสำหรับ Android",
+        "ios": "ดาวน์โหลดสำหรับ iOS"
+      },
+      "meta": {
+        "pageTitle": "ดาวน์โหลด"
+      }
+    },
+    "id": {
+      "languageName": "印尼语",
+      "title": "Unduh Aplikasi Binance, Ikuti Kampanye Perlindungan Harga, Dapatkan hingga",
+      "titleHighlight": "200 USDT",
+      "subtitle": "Aplikasi Binance - Beli, perdagangkan, dan kelola crypto Anda kapan saja, di mana saja",
+      "downloadButton": {
+        "android": "Unduh untuk Android",
+        "ios": "Unduh untuk iOS"
+      },
+      "meta": {
+        "pageTitle": "Unduh"
+      }
+    },
+    "ar": {
+      "languageName": "阿拉伯语",
+      "title": "قم بتنزيل تطبيق Binance، انضم إلى حملة حماية الأسعار، احصل على ما يصل إلى",
+      "titleHighlight": "200 USDT",
+      "subtitle": "تطبيق Binance - اشترِ وتداول وأدر عملاتك المشفرة في أي وقت وأي مكان",
+      "downloadButton": {
+        "android": "تنزيل لنظام Android",
+        "ios": "تنزيل لنظام iOS"
+      },
+      "meta": {
+        "pageTitle": "تنزيل"
+      }
+    },
+    "tr": {
+      "languageName": "土耳其语",
+      "title": "Binance Uygulamasını İndirin, Fiyat Koruma Kampanyasına Katılın, En Fazla",
+      "titleHighlight": "200 USDT",
+      "subtitle": "Binance Uygulaması - Kripto paranızı istediğiniz zaman, istediğiniz yerde satın alın, işlem yapın ve yönetin",
+      "downloadButton": {
+        "android": "Android için İndir",
+        "ios": "iOS için İndir"
+      },
+      "meta": {
+        "pageTitle": "İndir"
+      }
+    },
+    "ur": {
+      "languageName": "乌尔都语",
+      "title": "Binance ایپ ڈاؤن لوڈ کریں، قیمت تحفظ مہم میں شامل ہوں، حاصل کریں",
+      "titleHighlight": "200 USDT",
+      "subtitle": "Binance ایپ - کسی بھی وقت، کہیں بھی اپنی کرپٹو خریدیں، تجارت کریں اور منظم کریں",
+      "downloadButton": {
+        "android": "Android کے لیے ڈاؤن لوڈ کریں",
+        "ios": "iOS کے لیے ڈاؤن لوڈ کریں"
+      },
+      "meta": {
+        "pageTitle": "ڈاؤن لوڈ"
+      }
+    },
+    "bn": {
+      "languageName": "孟加拉文",
+      "title": "Binance অ্যাপ ডাউনলোড করুন, মূল্য সুরক্ষা প্রচারে যোগ দিন, পান",
+      "titleHighlight": "200 USDT",
+      "subtitle": "Binance অ্যাপ - যেকোনো সময়, যেকোনো জায়গায় আপনার ক্রিপ্টো কিনুন, ট্রেড করুন এবং পরিচালনা করুন",
+      "downloadButton": {
+        "android": "Android এর জন্য ডাউনলোড করুন",
+        "ios": "iOS এর জন্য ডাউনলোড করুন"
+      },
+      "meta": {
+        "pageTitle": "ডাউনলোড"
+      }
+    },
+    "hi": {
+      "languageName": "印地语",
+      "title": "Binance ऐप डाउनलोड करें, मूल्य संरक्षण अभियान में शामिल हों, प्राप्त करें",
+      "titleHighlight": "200 USDT",
+      "subtitle": "Binance ऐप - कभी भी, कहीं भी अपनी क्रिप्टो खरीदें, व्यापार करें और प्रबंधित करें",
+      "downloadButton": {
+        "android": "Android के लिए डाउनलोड करें",
+        "ios": "iOS के लिए डाउनलोड करें"
+      },
+      "meta": {
+        "pageTitle": "डाउनलोड"
+      }
+    },
+    "la": {
+      "languageName": "拉丁文",
+      "title": "Binance App Download, Price Protection Campaign Particeps, Usque ad",
+      "titleHighlight": "200 USDT",
+      "subtitle": "Binance App - Emere, commercium et administrare crypto tua aliquando, ubicumque",
+      "downloadButton": {
+        "android": "Download pro Android",
+        "ios": "Download pro iOS"
+      },
+      "meta": {
+        "pageTitle": "Download"
+      }
+    },
+    "ms": {
+      "languageName": "马来语",
+      "title": "Muat turun Aplikasi Binance, Sertai Kempen Perlindungan Harga, Dapatkan sehingga",
+      "titleHighlight": "200 USDT",
+      "subtitle": "Aplikasi Binance - Beli, dagangkan dan urus kripto anda pada bila-bila masa, di mana-mana",
+      "downloadButton": {
+        "android": "Muat turun untuk Android",
+        "ios": "Muat turun untuk iOS"
+      },
+      "meta": {
+        "pageTitle": "Muat turun"
+      }
+    },
+    "el": {
+      "languageName": "希腊文",
+      "title": "Κατεβάστε την Εφαρμογή Binance, Συμμετέχετε στην Καμπάνια Προστασίας Τιμών, Κερδίστε έως",
+      "titleHighlight": "200 USDT",
+      "subtitle": "Εφαρμογή Binance - Αγοράστε, συναλλάξτε και διαχειριστείτε τα κρύπτο σας οποιαδήποτε στιγμή, οπουδήποτε",
+      "downloadButton": {
+        "android": "Λήψη για Android",
+        "ios": "Λήψη για iOS"
+      },
+      "meta": {
+        "pageTitle": "Λήψη"
+      }
+    },
+    "fa": {
+      "languageName": "波斯语",
+      "title": "دانلود برنامه Binance، شرکت در کمپین محافظت از قیمت، دریافت تا",
+      "titleHighlight": "200 USDT",
+      "subtitle": "برنامه Binance - خرید، معامله و مدیریت رمزارز خود در هر زمان، در هر مکان",
+      "downloadButton": {
+        "android": "دانلود برای Android",
+        "ios": "دانلود برای iOS"
+      },
+      "meta": {
+        "pageTitle": "دانلود"
+      }
+    },
+    "it": {
+      "languageName": "意大利语",
+      "title": "Scarica l'App Binance, Partecipa alla Campagna di Protezione dei Prezzi, Ottieni fino a",
+      "titleHighlight": "200 USDT",
+      "subtitle": "App Binance - Acquista, scambia e gestisci le tue criptovalute in qualsiasi momento, ovunque",
+      "downloadButton": {
+        "android": "Scarica per Android",
+        "ios": "Scarica per iOS"
+      },
+      "meta": {
+        "pageTitle": "Scarica"
+      }
+    }
+  },
+  "images": {
+    "giftBox": "images/il_giftbox.png",
+    "headphoneIcon": "images/headphone-icon.svg",
+    "favicon": "images/favicon.ico",
+    "faviconPng": "images/favicon.png"
+  }
+}

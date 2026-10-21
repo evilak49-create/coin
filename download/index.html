@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title id="page-title">Loading</title>
+    <link rel="icon" type="image/x-icon" id="favicon-ico" href="images/favicon.ico">
+    <link rel="icon" type="image/png" id="favicon-png" href="images/favicon.png">
+    <link rel="apple-touch-icon" id="apple-touch-icon" href="images/favicon.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "WenQuanYi Micro Hei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
+            background: #1E2329;
+            color: #FFFFFF;
+            min-height: 100vh;
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+            position: relative;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 30px 20px 120px;
+            text-align: center;
+            position: relative;
+        }
+
+        .title {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 1.4;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+            padding: 0 10px;
+            word-break: break-word;
+        }
+
+        .title .highlight {
+            color: #F0B90B;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            line-height: 1.6;
+            color: #EAECEF;
+            margin-bottom: 40px;
+            padding: 0 10px;
+            word-break: break-word;
+        }
+
+        .gift-box {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto 60px;
+            position: relative;
+            aspect-ratio: 901 / 744;
+        }
+
+        .gift-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+
+
+        .download-btn {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            width: calc(100% - 40px);
+            max-width: calc(100% - 40px);
+            margin: 0;
+            height: 48px;
+            padding: 0px 16px;
+            background: #FCD535;
+            color: #202630;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 99;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .support-icon {
+            position: fixed;
+            bottom: 100px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            background: #FCD535;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            z-index: 100;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .headphone-icon {
+            width: 32px;
+            height: 32px;
+        }
+
+        .headphone-icon svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        @media (max-width: 414px) {
+            .container {
+                padding: 20px 20px 80px;
+            }
+
+            .title {
+                font-size: 36px;
+                margin-bottom: 16px;
+            }
+
+            .subtitle {
+                font-size: 18px;
+                margin-bottom: 35px;
+            }
+
+            .gift-box {
+                max-width: 350px;
+                margin-bottom: 50px;
+            }
+
+            .download-btn {
+                height: 48px;
+                padding: 0px 16px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+            }
+
+            .support-icon {
+                width: 40px;
+                height: 40px;
+                bottom: 100px;
+                right: 20px;
+            }
+        }
+
+        @media (max-width: 375px) {
+            .title {
+                font-size: 32px;
+            }
+
+            .subtitle {
+                font-size: 16px;
+            }
+
+            .gift-box {
+                max-width: 320px;
+            }
+
+            .download-btn {
+                height: 48px;
+                padding: 0px 16px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+            }
+        }
+    </style>
+    <!-- Facebook Pixel Code -->
+    <script>
+        // Facebook Pixel 初始化函数
+        function initFacebookPixel(pixelId) {
+            if (!pixelId) return;
+            
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            
+            fbq('init', pixelId);
+            fbq('track', 'PageView');
+        }
+        
+        // 发送 Facebook 像素事件
+        function trackFacebookPixelEvent(eventName) {
+            if (typeof fbq !== 'undefined' && fbq) {
+                fbq('track', eventName);
+                console.log('Facebook Pixel 事件已发送:', eventName);
+            }
+        }
+    </script>
+    <noscript id="fb-pixel-noscript"></noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+<body>
+    <div class="container">
+        <h1 class="title" id="title-text">Loading</h1>
+        
+        <p class="subtitle" id="subtitle-text">Loading</p>
+
+        <div class="gift-box">
+            <img id="gift-box-img" src="images/il_giftbox.png" alt="Loading">
+        </div> 
+    </div>
+
+    <a href="#" class="download-btn" id="download-btn-text">Loading</a>
+
+    <a href="#" class="support-icon" id="support-icon-link">
+        <div class="headphone-icon">
+            <svg style="width: 100%; height: 100%;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 29">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M24.5023 20.4105V14.5771C24.5023 14.2147 24.4839 13.8566 24.4481 13.5036C24.4449 13.4725 24.4416 13.4415 24.4382 13.4105C23.8579 8.16054 19.4069 4.07715 14.0023 4.07715C8.2033 4.07715 3.50229 8.77816 3.50229 14.5771V20.4105H9.33562V13.4105H6.50814C7.06932 9.77621 10.2109 6.99381 14.0023 6.99381C17.7937 6.99381 20.9353 9.77621 21.4964 13.4105H18.669V20.4105H19.7178C18.6728 21.4345 17.3539 22.1799 15.8812 22.5266C15.4563 21.9507 14.7729 21.5771 14.0023 21.5771C12.7136 21.5771 11.669 22.6218 11.669 23.9105C11.669 25.1991 12.7136 26.2438 14.0023 26.2438C14.9526 26.2438 15.7702 25.6757 16.134 24.8606C18.8766 24.295 21.2285 22.6599 22.7342 20.4105H24.5023Z" fill="#202630"></path>
+            </svg>
+        </div>
+    </a>
+
+    <script>
+        var version = "1.0.0";
+        
+        // 获取语言代码（从URL参数、localStorage或浏览器语言）
+        function getLanguage(defaultLang, supportedLanguages) {
+            // 优先从URL参数获取
+            const langParam = urlParams.get('lang');
+            if (langParam && supportedLanguages.includes(langParam)) {
+                localStorage.setItem('preferredLanguage', langParam);
+                return langParam;
+            }
+            
+            // 从localStorage获取
+            const savedLang = localStorage.getItem('preferredLanguage');
+            if (savedLang && supportedLanguages.includes(savedLang)) {
+                return savedLang;
+            }
+            
+            // 从浏览器语言获取
+            const browserLang = navigator.language || navigator.userLanguage;
+            const langCode = browserLang.split('-')[0];
+            
+            // 特殊处理中文
+            if (langCode === 'zh') {
+                const fullZhLang = browserLang === 'zh-TW' ? 'zh-TW' : 'zh-CN';
+                if (supportedLanguages.includes(fullZhLang)) {
+                    return fullZhLang;
+                }
+            }
+            
+            // 其他语言直接使用语言代码
+            if (supportedLanguages.includes(langCode)) {
+                return langCode;
+            }
+            
+            // 返回默认语言
+            return defaultLang;
+        }
+        
+        // 检测设备类型
+        function getDeviceType() {
+            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            if (/android/i.test(userAgent)) {
+                return 'android';
+            }
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                return 'ios';
+            }
+            return 'android'; // 默认返回android
+        }
+        
+        // 获取URL参数（在全局作用域定义，供后续使用）
+        const urlParams = new URLSearchParams(window.location.search);
+        
+        // 加载配置文件
+        fetch('config.json?v=' + version)
+            .then(response => response.json())
+            .then(config => {
+                // 初始化 Facebook 像素
+                if (config.facebookPixelId) {
+                    initFacebookPixel(config.facebookPixelId);
+                    // 添加 noscript 标签
+                    const noscript = document.getElementById('fb-pixel-noscript');
+                    if (noscript) {
+                        noscript.innerHTML = '<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=' + config.facebookPixelId + '&ev=PageView&noscript=1" />';
+                    }
+                }
+                
+                // 从配置文件中获取支持的语言列表
+                const supportedLanguages = Object.keys(config.languages);
+                
+                // 获取当前语言（使用配置文件中的默认语言）
+                const currentLang = getLanguage(config.defaultLanguage, supportedLanguages);
+                const langData = config.languages[currentLang];
+                
+                // 获取设备类型
+                const deviceType = getDeviceType();
+                
+                // 设置页面标题
+                document.getElementById('page-title').textContent = langData.meta.pageTitle;
+                
+                // 设置favicon
+                document.getElementById('favicon-ico').href = config.images.favicon;
+                document.getElementById('favicon-png').href = config.images.faviconPng;
+                document.getElementById('apple-touch-icon').href = config.images.faviconPng;
+                
+                // 设置标题文字
+                const titleElement = document.getElementById('title-text');
+                titleElement.innerHTML = langData.title + '<span class="highlight">' + langData.titleHighlight + '</span>';
+                const newHighlight = titleElement.querySelector('.highlight');
+                if (newHighlight) {
+                    newHighlight.id = 'title-highlight';
+                }
+                
+                // 设置副标题
+                document.getElementById('subtitle-text').textContent = langData.subtitle;
+                
+                // 设置礼品盒图片
+                document.getElementById('gift-box-img').src = config.images.giftBox;
+                
+                // 设置下载按钮（根据设备类型）
+                const downloadBtn = document.getElementById('download-btn-text');
+                const downloadButtonText = typeof langData.downloadButton === 'object' 
+                    ? langData.downloadButton[deviceType] 
+                    : langData.downloadButton;
+                // 默认下载链接（从配置文件读取，如果接口没有返回则使用此链接）
+                const defaultDownloadUrl = config.urls[deviceType] || config.urls.download || '#';
+                
+                downloadBtn.textContent = downloadButtonText;
+                downloadBtn.href = defaultDownloadUrl;
+                
+                // Android在新窗口打开，iOS在当前窗口打开
+                if (deviceType === 'android') {
+                    downloadBtn.target = '_blank';
+                } else {
+                    downloadBtn.removeAttribute('target');
+                }
+                
+                
+                // 版本ID变量（用于更新下载次数）
+                let versionId = null;
+                // 标记是否已经点击过下载按钮
+                let hasClicked = false;
+
+                // 获取渠道编号：优先从URL读取，如果没有则从配置文件读取
+                const channelCode = urlParams.get('channel_code') || config.channelCode || '';
+                let apiUrl = '/api/client/version/latest';
+                if (channelCode) {
+                    apiUrl += '?channel_code=' + encodeURIComponent(channelCode);
+                }
+                
+                // 更新下载次数的函数
+                function updateDownloadCount() {
+                    if (versionId) {
+                        console.log('调用更新下载次数接口，versionId:', versionId);
+                        // 使用 fetch 发送请求
+                        fetch('/api/client/version/updateDownloadCount', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify({
+                                id: parseInt(versionId)
+                            }),
+                            keepalive: true // 确保即使页面卸载也能发送
+                        })
+                        .then(response => response.json())
+                        .then(data => {
+                            console.log('更新下载次数成功:', data);
+                        })
+                        .catch(error => {
+                            console.error('更新下载次数失败:', error);
+                        });
+                    } else {
+                        console.log('versionId 为空，无法更新下载次数');
+                    }
+                }
+                
+                // 添加下载按钮点击事件，更新下载次数
+                downloadBtn.addEventListener('click', function(e) {
+                    console.log('下载按钮被点击，当前 versionId:', versionId, 'href:', downloadBtn.href);
+                    hasClicked = true;
+                    
+                    // 发送 Facebook 像素下载事件
+                    trackFacebookPixelEvent('AddToCart');
+                    
+                    // 如果版本ID已经获取，立即调用接口
+                    // 如果还没有获取，会在获取后自动调用
+                    updateDownloadCount();
+                    
+                    // 如果 versionId 存在，确保请求发送后再跳转
+                    // 使用 setTimeout 给请求一点时间发送
+                    if (versionId && downloadBtn.href && downloadBtn.href !== '#') {
+                        e.preventDefault();
+                        setTimeout(function() {
+                            window.location.href = downloadBtn.href;
+                        }, 100); // 延迟100ms跳转，确保请求能发送
+                    }
+                });
+                
+                fetch(apiUrl)
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log('获取版本信息成功:', data);
+                        if (data.code === 0 && data.data) {
+                            // 根据设备类型获取对应的平台数据
+                            const platformKey = deviceType === 'android' ? 'android' : 'ios';
+                            //console.log('平台类型:', platformKey, '数据:', data.data[platformKey]);
+                            if (data.data[platformKey]) {
+                                // 使用接口返回的下载URL
+                                if (data.data[platformKey].download_url) {
+                                    downloadBtn.href = data.data[platformKey].download_url;
+                                }
+                                // 保存版本ID用于更新下载次数
+                                if (data.data[platformKey].id) {
+                                    versionId = data.data[platformKey].id.toString();
+                                    //console.log('设置 versionId:', versionId);
+                                    // 如果用户已经点击过下载按钮，立即调用更新接口
+                                    if (hasClicked) {
+                                        console.log('用户已点击过，立即调用更新接口');
+                                        updateDownloadCount();
+                                    }
+                                } else {
+                                    console.log('接口返回的数据中没有 id 字段');
+                                }
+                            } else {
+                                console.log('接口返回的数据中没有对应平台的数据');
+                            }
+                        } else {
+                            console.log('接口返回的 code 不是 0 或 data 为空:', data);
+                        }
+                    })
+                    .catch(error => {
+                        console.error('获取版本信息失败:', error);
+                    });
+                
+                // 设置客服链接（根据设备类型）
+                const supportIconLink = document.getElementById('support-icon-link');
+                if (supportIconLink && config.urls.customerService) {
+                    supportIconLink.href = config.urls.customerService;
+                    // Android在新窗口打开，iOS在当前窗口打开
+                    if (deviceType === 'android') {
+                        supportIconLink.target = '_blank';
+                    } else {
+                        supportIconLink.removeAttribute('target');
+                    }
+                }
+            })
+            .catch(error => {
+                console.error('Failed to load config file:', error);
+            });
+    </script>
+</body>
+</html>
